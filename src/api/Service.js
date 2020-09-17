@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const service = axios.create({
-  baseURL: "https://file-upload-server.herokuapp.com/api",
+  baseURL: "https://file-upload-server.herokuapp.com",
   // withCredentials: true // => you might need this when having the users in the app
 });
 
